@@ -91,6 +91,18 @@ export const ManufacturingProcess = (): JSX.Element => (
             </li>
 
             <li className="h4 mt-5">
+                <strong>Control de Calidad: </strong>
+                En esta etapa, el calzado se somete a una rigurosa inspección para
+                garantizar que cumple con los estándares de calidad establecidos. Se
+                verifican detalles como costuras, pegado, simetría y acabados.
+                <img
+                    alt="Proceso 7"
+                    className="d-block mt-3 img-fluid w-25 rounded"
+                    src={Process7Img}
+                />
+            </li>
+
+            <li className="h4 mt-5">
                 <strong>Empaque y distribución: </strong>
                 Una vez que el calzado ha pasado las pruebas de calidad, se procede a
                 empaquetarlo para su distribución y comercialización. Dependiendo del
