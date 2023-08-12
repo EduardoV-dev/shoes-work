@@ -1,0 +1,13 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-image: url("../assets/pattern.jpg");
+  background-size: 250px;
+}
+
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";

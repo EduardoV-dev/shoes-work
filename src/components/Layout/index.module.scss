@@ -1,0 +1,30 @@
+.layout {
+  height: 100%;
+
+  display: grid;
+  grid-template-rows: auto 1fr;
+
+  .nav {
+    &__link {
+      color: #333;
+      text-decoration: none;
+
+      &:is(:hover, :focus) {
+        color: #111;
+      }
+
+      &.active {
+        color: #111;
+        font-weight: 700;
+      }
+
+      @media screen and (min-width: 1024px) {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  &__content {
+    height: 100%;
+  }
+}
